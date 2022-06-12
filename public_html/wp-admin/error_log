@@ -1,0 +1,33 @@
+[21-May-2021 14:55:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters'
+/* 1 = 1 */ made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[21-May-2021 14:55:42 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters-v2'
+/* 1 = 1 */ made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[21-May-2021 18:10:54 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters'
+/* 1 = 1 */ made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[21-May-2021 18:10:54 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters-v2'
+/* 1 = 1 */ made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Batch Process Started!
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.3.0 - astra_addon_clear_assets_cache
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.3.2 - astra_addon_clear_assets_cache
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.4.2 - astra_addon_clear_assets_cache
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.5.0 - astra_addon_page_headers_support_to_builder_layout
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.5.0 - astra_addon_clear_assets_cache
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.5.1 - astra_addon_headings_font_support
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.5.1 - astra_addon_cart_color_not_working_in_old_header
+[29-Jun-2021 21:41:49 UTC] Astra Addon: Queuing 3.5.1 - astra_addon_clear_assets_cache

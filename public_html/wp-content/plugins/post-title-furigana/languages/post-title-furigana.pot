@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Title Furigana\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-13 00:00+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TORIYAMA Yuko <sysbirdj@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: \n"
+
+#: wp-furigana/wp-furigana.php:5
+msgid "Automatically set Japanese Reading title into the custom field."
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:96
+msgid "Done!"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:108
+msgid "About"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:109
+msgid "When you enter the post title and move the focus, Automatically set Japanese Reading into the custom field.<br />It does not do anything if there is a Japanese Reading already.<br />Japanese Reading saved in the custom field named \"ptf_furigana\".<br />You can also edit Japanese Reading later."
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:111
+msgid "Settings"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:112
+msgid "It use text analysis Web API which Yahoo! JAPAN offers.<br />Please Enter Your Application ID."
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:113
+msgid "What the Application ID?"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:116
+msgid "The Post type to use the plugin"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:125
+msgid "post"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:125
+msgid "page"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:130
+msgid "Update Options"
+msgstr ""
+
+#: wp-furigana/wp-furigana.php:154
+msgid "Furigana:"
+msgstr ""

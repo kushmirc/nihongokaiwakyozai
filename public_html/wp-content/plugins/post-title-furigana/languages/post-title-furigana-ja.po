@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Title Furigana\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-13 00:00+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TORIYAMA Yuko <sysbirdj@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: wp-furigana/wp-furigana.php:5
+msgid "Automatically set Japanese Reading title into the custom field."
+msgstr "記事タイトルのふりがなをカスタムフィールドに自動入力します。"
+
+#: wp-furigana/wp-furigana.php:96
+msgid "Done!"
+msgstr "保存しました！"
+
+#: wp-furigana/wp-furigana.php:108
+msgid "About"
+msgstr "仕様"
+
+#: wp-furigana/wp-furigana.php:109
+msgid ""
+"When you enter the post title and move the focus, Automatically set Japanese "
+"Reading into the custom field.<br />It does not do anything if there is a "
+"Japanese Reading already.<br />Japanese Reading saved in the custom field "
+"named \"ptf_furigana\".<br />You can also edit Japanese Reading later."
+msgstr ""
+"投稿画面で記事タイトルを入力しフォーカスを移動した際に、カスタムフィールドに"
+"ふりがなを自動入力します。<br />すでにふりがながある場合はなにもしません。"
+"<br>ふりがなは\"ptf_furigana\"という名前のカスタムフィールドに保存されます。"
+"<br>ふりがなは後から編集することもできます。"
+
+#: wp-furigana/wp-furigana.php:111
+msgid "Settings"
+msgstr "設定"
+
+#: wp-furigana/wp-furigana.php:112
+msgid ""
+"It use text analysis Web API which Yahoo! JAPAN offers.<br />Please Enter "
+"Your Application ID."
+msgstr ""
+"Yahoo! JAPANが提供するテキスト解析Web APIを使用します。<br />あなたのアプリ"
+"ケーションIDを登録してください。"
+
+#: wp-furigana/wp-furigana.php:113
+msgid "What the Application ID?"
+msgstr "Yahoo!デベロッパーネットワーク ヘルプ - アプリケーションIDとは"
+
+#: wp-furigana/wp-furigana.php:116
+msgid "The Post type to use the plugin"
+msgstr "ふりがなを使用する投稿タイプ"
+
+#: wp-furigana/wp-furigana.php:125
+msgid "post"
+msgstr "投稿"
+
+#: wp-furigana/wp-furigana.php:125
+msgid "page"
+msgstr "ページ"
+
+#: wp-furigana/wp-furigana.php:130
+msgid "Update Options"
+msgstr "変更を保存する"
+
+#: wp-furigana/wp-furigana.php:154
+msgid "Furigana:"
+msgstr "ふりがな："

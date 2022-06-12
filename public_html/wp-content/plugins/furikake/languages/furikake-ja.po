@@ -1,0 +1,123 @@
+# furikake
+msgid ""
+msgstr ""
+"Project-Id-Version: furikake\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# msgfmt -o ./furikake-ja.mo ./furikake-ja.po
+
+msgid "A plugin to add Japanese phonetic. powered by <a href=\"http://developer.yahoo.co.jp/webapi/jlp/furigana/v1/furigana.html\">Yahoo!</a>. thx Yahoo!"
+msgstr "ふりがなを振るためのプラグインです。<a href=\"http://developer.yahoo.co.jp/webapi/jlp/furigana/v1/furigana.html\">Yahoo!のルビ振りAPI</a>を利用しています。ありがとう、Yahoo!"
+
+msgid "updated"
+msgstr "設定を更新しました"
+
+msgid "Get <code>Yahoo! Application ID (Server Side (Yahoo! ID v2))</code> and fill it below. Must."
+msgstr "<code>Yahoo! アプリケーション ID（サーバーサイド（Yahoo! ID連携 v2））</code>を取得して、ここに記入してください。必須です。"
+
+msgid "cache"
+msgstr "キャッシュ"
+
+msgid "Please enter the number of minutes. It does not cache to zero."
+msgstr "分単位で入力してください。ゼロにするとキャッシュしません。"
+
+msgid "Set of phonetic"
+msgstr "ふりがなの設定"
+
+msgid "If you always add phonetic, please choose to \"always add phonetic\". If you add phonetic in the operation of a user, please select \"control\"."
+msgstr "ふりがなを常に振る場合は、「ふりがなを常に振る」を選んでください。ユーザの操作でふりがなを振る場合は、「制御する」を選択してください。"
+
+msgid "control by cookie"
+msgstr "cookieで制御する"
+
+msgid "always add phonetic"
+msgstr "ふりがなを常に振る"
+
+msgid "use ob_filter() and control by cookie"
+msgstr "cookieで制御し、ob_filter()で自動的にページ全体を変換する"
+
+msgid "use ob_filter() and always add phonetic"
+msgstr "ふりがなを常に振り、ob_filter()で自動的にページ全体を変換する"
+
+msgid "grade"
+msgstr "学年"
+
+msgid "Set grade"
+msgstr "デフォルトの学年を設定してください。"
+
+msgid "grade 1"
+msgstr "小学1年生向け。漢字（注2）にふりがなを付けます。"
+
+msgid "grade 2"
+msgstr "小学2年生向け。1年生で習う漢字にはふりがなを付けません。"
+
+msgid "grade 3"
+msgstr "小学3年生向け。1～2年生で習う漢字にはふりがなを付けません。"
+
+msgid "grade 4"
+msgstr "小学4年生向け。1～3年生で習う漢字にはふりがなを付けません。"
+
+msgid "grade 5"
+msgstr "小学5年生向け。1～4年生で習う漢字にはふりがなを付けません。"
+
+msgid "grade 6"
+msgstr "小学6年生向け。1～5年生で習う漢字にはふりがなを付けません。"
+
+msgid "grade 7"
+msgstr "中学生以上向け。小学校で習う漢字にはふりがなを付けません。"
+
+msgid "grade 8"
+msgstr "一般向け。常用漢字にはふりがなを付けません。"
+
+msgid "ussage"
+msgstr "使い方"
+
+msgid "apply phonetic"
+msgstr "ふりがなの適用"
+
+msgid "<p>to the point where you add phonetic, please apply the short code. </p><p><code>[furikake grade=1] phonetic [/furikake] </code></p><p>grade is the grade of Japanese school. 0: all. including the hiragana. 1-6: is for Japanese elementary school. 7: for junior high school students. 8: at only difficult Chinese characters. If you not specified, it is set as the third grade for. </p>"
+msgstr "<p>ふりがなを振る箇所に、ショートコードを適用してください。</p><p><code>[furikake grade=1]ふりがなを振る文章[/furikake]</code></p><p>gradeは学年です。0は、ひらがなを含めてすべてにふりがなを振ります。1〜6は小学校向け。7は中学生向けの漢字の習得段階をさします。8にすると、常用漢字以外の漢字にふりがなをふります。無指定にすると、3年生向けとして設定されます。</p>"
+
+msgid "apply phonetic by template"
+msgstr "テンプレートでのふりがなの適用"
+
+msgid "use <code>do_shortcode()</code>."
+msgstr "テンプレートなどで利用する場合は<code>do_shortcode()</code>を利用します。"
+
+msgid "control of phonetic"
+msgstr "ふりがなの制御"
+
+msgid "see code below."
+msgstr "以下のコードを参考にして、テンプレート内にふりがなの制御を記述してください。"
+
+msgid "remove phonetic"
+msgstr "ふりがなをはずす"
+
+msgid "add phonetic"
+msgstr "ふりがなをふる"
+
+msgid "failed to add phonetic"
+msgstr "ふりがなの取得に失敗しました。"
+
+msgid "dictionary"
+msgstr "辞書"
+
+msgid "put the set of word to each line like this: <code>word:pronounce</code>"
+msgstr "一行に単語（文字と読み方）を一つ書いてください。書き方は<code>単語:たんご</code>というように、半角コロンで区切ってください。"
+
+msgid "Notes and Acknowledgements"
+msgstr "注意事項と謝辞"
+
+msgid "Notes"
+msgstr "注意事項"
+
+msgid "This plug-in takes advantage of the <a href=\"http://developer.yahoo.co.jp/webapi/jlp/furigana/v1/furigana.html\">ruby API</a> that Yahoo! Japan Developer Network was developed. please follow Yahoo! Japan is defined in the \"<a href=\"http://docs.yahoo.co.jp/docs/info/terms/chapter1.html#cf5th\">rules for software (Guidelines)</a>\" to. In addition, as a plug-in, from the standpoint of compliance with the \"<a href=\"http://developer.yahoo.co.jp/attribution/#guideline\">credit labeling guidelines</a>\" and \"<a href=\"http://developer.yahoo.co.jp/attribution/#placement\">credit placement rules</a>\", you have to specifications to display the logo of Yahoo! Japan to where it apply phonetic. However, when using this plug-in in multiple places within the same page, it has been fully display the logo of a lot less, which use more than one on the same page in the credits of \"plural image format is not showed in same page\", when used at a plurality of locations, please give an indication of the <code>no_yahoologo=1</code> to short code (However, at least, please be displayed One). Others, for the <a href=\"https://www.yahoo-help.jp/app/answers/detail/p/537/a_id/43405\">terms of commercial use</a>, please follow the policy established by Yahoo! Japan."
+msgstr "このプラグインは Yahoo! Japan デベロッパーネットワークが開発した<a href=\"http://developer.yahoo.co.jp/webapi/jlp/furigana/v1/furigana.html\">ルビ振りAPI</a>を利用しています。プラグイン利用には、Yahoo! Japanが定める「<a href=\"http://docs.yahoo.co.jp/docs/info/terms/chapter1.html#cf5th\">ソフトウエアに関する規則（ガイドライン）</a>」に従ってください。なお、プラグインとしては、「<a href=\"http://developer.yahoo.co.jp/attribution/#guideline\">クレジット表示ガイドライン</a>」と「<a href=\"http://developer.yahoo.co.jp/attribution/#placement\">クレジット配置ルール</a>」を遵守する立場から、ふりがなを振った箇所にYahoo! Japanのロゴを表示する仕様にしてあります。しかし、同じページ内の複数の箇所でこのプラグインを使用する際、あまりたくさんのロゴを表示してしまうと、これはこれで禁止事項である「画像形式のクレジットを同一ページ内で複数利用すること。」に抵触しますので、複数箇所で用いる場合は、ショートコードに<code>no_yahoologo=1</code>の指示を与えてください（ただし、少なくとも、ひとつは表示するようにしてください）。その他、<a href=\"https://www.yahoo-help.jp/app/answers/detail/p/537/a_id/43405\">商用利用等の規約</a>についても、Yahoo! Japanが定める方針に従ってください。"
+
+msgid "Acknowledgements"
+msgstr "謝辞"
+
+msgid "Thank the people involved in WordPress, and who have developed a ruby API, to all of Yahoo! Japan Developer Network."
+msgstr "WordPress に関わる人たちと、ルビ振りAPIを開発した、Yahoo! Japan デベロッパーネットワークの皆さんに感謝します。"
