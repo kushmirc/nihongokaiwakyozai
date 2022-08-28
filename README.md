@@ -2,9 +2,9 @@
 
 ### Link:  https://nihongokaiwakyozai.com/
 ### Video Walkthrough: https://youtu.be/PMabXz6iVUg
+<a href="https://youtu.be/PMabXz6iVUg">
+<img src="https://user-images.githubusercontent.com/107213928/187048262-64b8cbcc-8e9b-4f04-9e27-7de089300a0c.png" alt="video walkthrough"></a>
 
-### <em>Homepage:</em>
-![Homepage_edited](https://user-images.githubusercontent.com/107213928/187048262-64b8cbcc-8e9b-4f04-9e27-7de089300a0c.png)
 
 
 ## Overview:
